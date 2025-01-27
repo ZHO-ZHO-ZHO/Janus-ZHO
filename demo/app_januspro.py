@@ -1,8 +1,8 @@
 import gradio as gr
 import torch
 from transformers import AutoConfig, AutoModelForCausalLM
-from ..janus.models import MultiModalityCausalLM, VLChatProcessor
-from ..janus.utils.io import load_pil_images
+from janus.models import MultiModalityCausalLM, VLChatProcessor
+from janus.utils.io import load_pil_images
 from PIL import Image
 
 import numpy as np
